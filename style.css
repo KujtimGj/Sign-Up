@@ -1,0 +1,155 @@
+body{
+    background: #272a37;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    padding-left: 3em;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    margin-left: 3.5em;
+}
+.links{
+    padding-left: 4em;
+    padding-top: 2.5em;
+}
+.main{
+    height: 59em;
+    width: 100%;
+}
+.main .left-content{
+    float: left;
+    height: 100%;
+    width: 50%;
+    /* background: red; */
+}
+.signuptext{
+    padding-top: 8em;
+    padding-left: 5em;
+}
+.signuptext h3{
+    color: #6a7181;
+}
+.signuptext h1{
+    color: white;
+    font-size: 40px;
+}
+
+    /* Name FullName  */
+
+.fullname{
+    padding-top: 2.5em;
+    padding-left: 5em;
+}
+.fullname p{
+    color: #6a7181;
+}
+.fullname .firstname{
+    height: 70px;
+    width: 250px;
+    background: #323644;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+input{
+    color: white;
+    background: #323644;
+    border: none;
+    height: 30px;
+    font-size: 15px;
+    margin-top: -5px;
+    /* padding-top: -30px; */
+}
+input:focus{
+    color: white;
+    outline: none;
+    caret-color: #6a7181;
+}
+.nameinputlogo{
+    display: flex;
+    margin-top: -15px;
+}
+.firstname{
+    margin-left: 20px;
+}
+i{
+    color: #6a7181;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+.fncont{
+    display: flex;
+}
+.buttons{
+    margin-top: 3em;
+    margin-left: 6em;
+    display: flex;
+}
+button{
+    width: 250px;
+    height: 70px;
+    margin-left: 20px;
+    border-radius: 35px;
+    border: none;
+    color: white;
+    font-size: 17px;
+
+}
+/* Email */
+
+.email{
+    margin-top: 2em;
+    margin-left: 6.5em;
+    height: 70px;
+    width: 35em;
+    border-radius: 20px;
+    background: #323644;
+}
+.email .placeholder{
+    padding-left: 20px;
+    color:#6a7181 ;
+}
+.input{
+    margin-left: 30px;
+    display: flex;
+}
+.input input{
+    width: 450px;
+    margin-top: -14px;
+}
+
+ /* Password  */
+ .password{
+    margin-top: 2em;
+    margin-left: 6.5em;
+    height: 70px;
+    width: 35em;
+    border-radius: 20px;
+    background: #323644;
+}
+.password .placeholder{
+    padding-left: 20px;
+    color:#6a7181 ;
+}
+.input{
+    margin-left: 30px;
+    display: flex;
+}
+.input input{
+    width: 450px;
+}
+
+
+/* Right Side */
+
+.main .right-content{
+    float: right;
+    height: 100%;
+    width: 50%;
+}
